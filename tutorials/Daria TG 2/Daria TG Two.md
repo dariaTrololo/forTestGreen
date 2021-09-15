@@ -2,7 +2,7 @@
 title: Daria TG Two
 description: ADMINTOOL final
 tags: [tutorial>advanced, tutorial:product/sapHana]
-primary_tag: tutorial:product/mobile
+primary_tag: tutorial>mobile
 time: 33 min
 ---
 
