@@ -1,7 +1,7 @@
 ---
 title: Daria TG Eleven
 description: Create a database table in SAP Cloud Platform ABAP Environment and prefill it with data.
-primary_tag: products>sap-cloud-platform--abap-environment  
+primary_tag: products>sap-hana-cloud  
 tags: [  tutorial>beginner, topic>abap-development, products>sap-cloud-platform]
 time: 10
 ---
