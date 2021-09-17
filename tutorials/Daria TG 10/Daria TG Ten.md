@@ -2,7 +2,7 @@
 title: Daria TG Ten
 description: 2 new types of rules 2007_1
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
-primary_tag: tutorial:product>sap-hana
+primary_tag: products>sap-cloud-platform\,-sap-hana-service
 author_name: AE21
 author_profile: https://github.com/adadouche
 ---
