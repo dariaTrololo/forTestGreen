@@ -1,7 +1,7 @@
 ---
-title: Daria TG One TEST
+title: Daria TG One TEST 1
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
-primary_tag: software-product:customer-relationship-management/sap-consumer-sales-intelligence
+primary_tag: software-product>customer-relationship-management/sap-consumer-sales-intelligence
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
 time: 66
 
