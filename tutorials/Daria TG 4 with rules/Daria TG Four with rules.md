@@ -1,5 +1,5 @@
 ---
-title: Daria TG Four with rules
+title: Daria TG Four
 description: Spatial access methods help you to retrieve properties of geometries
 auto_validation: true
 time: 15
