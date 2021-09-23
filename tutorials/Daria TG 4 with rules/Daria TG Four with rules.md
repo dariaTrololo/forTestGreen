@@ -105,7 +105,7 @@ This query now produced 3 different collections. Each of them contains only the 
 
 You will learn more about different kinds of spatial aggregations in a separate tutorial.
 
-[VALIDATE_1]
+[DONE]
 [ACCORDION-END]
 
 ### Optional
