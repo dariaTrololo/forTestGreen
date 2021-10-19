@@ -4,7 +4,7 @@ description: Handle the message execution in case of errors.
 auto_validation: true
 time: 15
 tags: [ tutorial>intermediate, products>sap-cloud-platform]
-primary_tag: products>sap-cloud-platform-integration-for-process-services
+primary_tag: products>sap-hana--express-edition
 ---
 
 
