@@ -2,7 +2,7 @@
 title: Daria TG Tutorial with all components
 description: example
 tags: [products>sap-hana, products>sap-leonardo, tutorial>beginner]
-primary_tag: tutorial>mobile
+primary_tag: products>sap-consumer-sales-intelligence
 time: 600
 author_profile: https://github.com/ksAutotests
 author_name: ksAutotests
