@@ -1,7 +1,7 @@
 ---
 title: Daria TG One
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
-primary_tag: software-product>identity-authentication
+primary_tag: software-product>sap-s-4hana-cloud
 tags: [tutorial>how-to, tutorial>beginner, software-product>sap-s-4hana-cloud]
 time: 66
 
