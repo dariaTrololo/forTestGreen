@@ -1,8 +1,8 @@
 ---
 title: Daria TG One
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
-primary_tag: software-product>sap-consumer-sales-intelligence
-tags: [tutorial>how-to, tutorial>beginner, software-product>sap-hana]
+primary_tag: software-product-function>s-4hana-cloud-abap-environment
+tags: [tutorial>how-to, tutorial>beginner, software-product-function>s-4hana-cloud-abap-environment]
 time: 66
 
 ---
