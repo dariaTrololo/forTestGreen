@@ -1,8 +1,8 @@
 ---
 title: Daria TG Two test
 description: ADMINTOOL final
-tags: [tutorial>advanced, tutorial:product/sapHana]
-primary_tag: tutorial>mobile
+tags: [tutorial>advanced, topic>machine-learning]
+primary_tag: programming-tool>html5
 time: 33 min
 ---
 
