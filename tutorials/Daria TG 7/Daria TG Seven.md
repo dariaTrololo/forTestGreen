@@ -1,8 +1,8 @@
 ---
 title: Daria TG Seven
 description: Create a database table in SAP Cloud Platform ABAP Environment and prefill it with data.
-primary_tag: products>sap-hana  
-tags: [  tutorial>beginner, topic>abap-development, products>sap-cloud-platform]
+primary_tag: software-product>sap-cloud-sdk
+tags: [  tutorial>beginner, software-product>sap-cloud-sdk]
 time: 10
 ---
 
