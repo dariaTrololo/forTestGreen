@@ -1,8 +1,8 @@
 ---
 title: Daria TG One
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
-primary_tag: products>sap-consumer-sales-intelligence
-tags: [tutorial>how-to, tutorial>coop, products>sap-hana]
+primary_tag: software-product>sap-consumer-sales-intelligence
+tags: [tutorial>how-to, tutorial>beginner, software-product>sap-hana]
 time: 66
 
 ---
