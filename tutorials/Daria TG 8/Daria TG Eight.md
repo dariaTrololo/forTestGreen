@@ -2,8 +2,8 @@
 title: Daria TG Eight Test Shmest
 description: Develop a sample client application that embeds an SAP Analytics Cloud story and configure the OAuth two-legged flow to provide access to the API.
 auto_validation: true
-primary_tag: products>sap-hana
-tags: [  tutorial>intermediate, topic>cloud, topic>sapui5, topic>security, products>sap-analytics-cloud, products>sap-cloud-platform-connectivity ]
+primary_tag: programming-tool>sapui5
+tags: [  tutorial>intermediate, programming-tool>sapui5 ]
 time: 60
 author_name: Virat Tiwari
 author_profile: https://github.com/virattiwari7
