@@ -15,9 +15,6 @@ time: 66
 [ACCORDION-BEGIN [Step 1: ](All 3 options, all with code snippets)]
 1.  From the **Sources** list, choose **Service URL**.
 
-<iframe src="/content/dam/site/sapcom/multimedia/2022/03/5abedd61-1f7e-0010-bca6-c68f7e60039b.mp4" frameborder="0" allowfullscreen></iframe>
-<a href="/content/dam/site/sapcom/multimedia/2022/03/5abedd61-1f7e-0010-bca6-c68f7e60039b.mp4" title="Link Title"><img src="{image-url}" alt="Alternate Text" /></a>
-
 2.  Then choose the following:
 
     | -------------:| ---------------------------------- |
