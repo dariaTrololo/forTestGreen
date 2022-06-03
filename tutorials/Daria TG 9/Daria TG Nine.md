@@ -1,5 +1,5 @@
 ---
-title: Daria TG Nine Best Test
+title: Daria TG Nine
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: programming-tool>html5
 tags: [  tutorial>beginner, programming-tool>html5]
