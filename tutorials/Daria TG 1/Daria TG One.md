@@ -1,4 +1,3 @@
----
 title: Daria TG One A
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition test
 primary_tag: software-product>sap-s-4hana-cloud
@@ -8,13 +7,13 @@ time: 66
 ---
 ## Prerequisites  
  - **Systems used:** SAP HANA 1.00 SPS12, SAP HANA 2.00 SPS00, SAP HANA 2.00 SPS01, SAP HANA 2 SPS02 - SAP HANA, express edition, test test
- - [Link](devtoberfest-dogtoberfest)
 
 
 ---
 
 [ACCORDION-BEGIN [Step 1: ](All 3 options, all with code snippets)]
 1.  From the **Sources** list, choose **Service URL**.
+[Link](daria-tg-two)
 
 2.  Then choose the following:
 
@@ -23,7 +22,7 @@ time: 66
     | URI           | **`/V2/Northwind/Northwind.svc`**      |
 
 [OPTION BEGIN [Windows]]
-### Content of the tab 
+### Content of the tab
 Click the **Data Sources** tab at the top of the screen.
 
 ```cds
@@ -35,13 +34,13 @@ entity Books {
   author : Association to Authors;
 }
 ```
- 
+
  Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
- 
+
 [OPTION END]
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 **Select** all following **fields** of the Data View, so that they can be copied to the query:
 -  `Amount in CC Crcy`
 -  `Controlling Area`
@@ -69,11 +68,11 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
 ```
- 
+
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-### Content of the tab 
+### Content of the tab
 Switch to the **Filters** tab. This section displays the fixed value filters and the user input values for the selected dimension. **Change** Filters from **No Filters** to **User Input Values**.
 A dialog will be shown in the design studio to read value from user.
 
@@ -89,9 +88,9 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
 ```
- 
+
 [OPTION END]
- 
+
 ![Relative with space](tutorials/devms1879/cat.png)
 ----
 
@@ -119,7 +118,7 @@ service CatalogService {
     | URI           | **`/V2/Northwind/Northwind.svc`**      |
 
 [OPTION BEGIN [Windows]]
-### Content of the tab 
+### Content of the tab
 Click the **Data Sources** tab at the top of the screen.
 
 ```cds
@@ -133,11 +132,11 @@ entity Books {
 ```
 
 Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
- 
+
 [OPTION END]
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 **Select** all following **fields** of the Data View, so that they can be copied to the query:
 -  `Amount in CC Crcy`
 -  `Controlling Area`
@@ -165,11 +164,11 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
 ```
- 
+
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-### Content of the tab 
+### Content of the tab
 Switch to the **Filters** tab. This section displays the fixed value filters and the user input values for the selected dimension. **Change** Filters from **No Filters** to **User Input Values**.
 A dialog will be shown in the design studio to read value from user.
 
@@ -185,9 +184,9 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
 ```
- 
+
 [OPTION END]
- 
+
 ![Relative with space](tutorials/devms1879/cat.png)
 ----
 
@@ -198,7 +197,7 @@ service CatalogService {
  - **$metadata file not listed?**  This means one of the files in your project is incorrect.  Check the files, and make sure no red X marks appear in the left hand column.  These indicate a problem with the file syntax.  Check the pictures carefully.
 
  ---
- 
+
 [DONE]
 [ACCORDION-END]
 
@@ -212,12 +211,12 @@ service CatalogService {
     | URI           | **`/V2/Northwind/Northwind.svc`**      |
 
 [OPTION BEGIN [Windows]]
-### Content of the tab 
+### Content of the tab
 Click the **Data Sources** tab at the top of the screen.
 
 ```cds
 using System;
- 
+
 class HelloWorld
 {
   public static int Main()
@@ -228,13 +227,13 @@ class HelloWorld
 }
 * This source code was highlighted with Source Code Highlighter.
 ```
- 
+
  Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
-  
+
 [OPTION END]
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 1. Click the **Data Sources** tab at the top of the screen.
 
 2. Click the **+** icon next to the *Define OData services for the application and...* box.
@@ -242,7 +241,7 @@ class HelloWorld
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-### Content of the tab 
+### Content of the tab
 Switch to the **Filters** tab. This section displays the fixed value filters and the user input values for the selected dimension. **Change** Filters from **No Filters** to **User Input Values**.
 A dialog will be shown in the design studio to read value from user.
 
@@ -258,9 +257,9 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
 ```
- 
+
 [OPTION END]
- 
+
 ![Relative with space](tutorials/devms1879/cat.png)
 ----
 
@@ -271,7 +270,7 @@ service CatalogService {
  - **$metadata file not listed?**  This means one of the files in your project is incorrect.  Check the files, and make sure no red X marks appear in the left hand column.  These indicate a problem with the file syntax.  Check the pictures carefully.
 
  ---
- 
+
 [DONE]
 [ACCORDION-END]
 
@@ -303,12 +302,12 @@ service CatalogService {
 ```
 
 [OPTION BEGIN [Windows]]
-### Content of the tab 
+### Content of the tab
 Click the **Data Sources** tab at the top of the screen.
 
 ```c#
 using System;
- 
+
 class HelloWorld
 {
   public static int Main()
@@ -321,11 +320,11 @@ class HelloWorld
 ```
 
 Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
- 
+
 [OPTION END]
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 **Select** all following **fields** of the Data View, so that they can be copied to the query:
 -  `Amount in CC Crcy`
 -  `Controlling Area`
@@ -339,7 +338,7 @@ Define a new User Input Filter for restricted **measures (1)**. **Choose** on th
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-### Content of the tab 
+### Content of the tab
 Switch to the **Filters** tab. This section displays the fixed value filters and the user input values for the selected dimension. **Change** Filters from **No Filters** to **User Input Values**.
 A dialog will be shown in the design studio to read value from user.
 
@@ -358,8 +357,8 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
 ```
- 
- 
+
+
 ![Relative with space](tutorials/devms1879/cat.png)
 ----
 
@@ -370,7 +369,7 @@ service CatalogService {
  - **$metadata file not listed?**  This means one of the files in your project is incorrect.  Check the files, and make sure no red X marks appear in the left hand column.  These indicate a problem with the file syntax.  Check the pictures carefully.
 
  ---
- 
+
 [DONE]
 [ACCORDION-END]
 
@@ -385,7 +384,7 @@ service CatalogService {
     | URI           | **`/V2/Northwind/Northwind.svc`**      |
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 **Select** all following **fields** of the Data View, so that they can be copied to the query:
 -  `Amount in CC Crcy`
 -  `Controlling Area`
@@ -417,12 +416,12 @@ service CatalogService {
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-### Content of the tab 
+### Content of the tab
 Switch to the **Filters** tab. This section displays the fixed value filters and the user input values for the selected dimension. **Change** Filters from **No Filters** to **User Input Values**.
 A dialog will be shown in the design studio to read value from user.
 
 [OPTION END]
- 
+
 ![Relative with space](tutorials/devms1879/cat.png)
 ----
 
@@ -433,7 +432,7 @@ A dialog will be shown in the design studio to read value from user.
  - **$metadata file not listed?**  This means one of the files in your project is incorrect.  Check the files, and make sure no red X marks appear in the left hand column.  These indicate a problem with the file syntax.  Check the pictures carefully.
 
  ---
- 
+
 [DONE]
 [ACCORDION-END]
 
@@ -448,7 +447,7 @@ A dialog will be shown in the design studio to read value from user.
     | URI           | **`/V2/Northwind/Northwind.svc`**      |
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 **Select** all following **fields** of the Data View, so that they can be copied to the query:
 -  `Amount in CC Crcy`
 -  `Controlling Area`
@@ -489,7 +488,7 @@ service CatalogService {
  - **$metadata file not listed?**  This means one of the files in your project is incorrect.  Check the files, and make sure no red X marks appear in the left hand column.  These indicate a problem with the file syntax.  Check the pictures carefully.
 
  ---
- 
+
 [DONE]
 [ACCORDION-END]
 
@@ -504,7 +503,7 @@ service CatalogService {
     | URI           | **`/V2/Northwind/Northwind.svc`**      |
 
 [OPTION BEGIN [iOS]]
-### Content of the tab 
+### Content of the tab
 **Select** all following **fields** of the Data View, so that they can be copied to the query:
 -  `Amount in CC Crcy`
 -  `Controlling Area`
@@ -521,6 +520,6 @@ service CatalogService {
  - **Missing a file?**  If the list of files doesn't match the picture, you may have used the wrong template when you created the project.  Delete the project, and start the [Create a new project](sapui5-webide-create-project) tutorial again.
  - **$metadata file not listed?**  This means one of the files in your project is incorrect.  Check the files, and make sure no red X marks appear in the left hand column.  These indicate a problem with the file syntax.  Check the pictures carefully.
 
- 
+
 [DONE]
 [ACCORDION-END]
